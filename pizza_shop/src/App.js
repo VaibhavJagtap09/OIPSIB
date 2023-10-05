@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import TopBar from './components/TopBar';
 import About from './components/About';
 import Contact from './components/Contact';
+import Policy from './components/Policy';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path='/about' element={<About/>} exact/>
           <Route path='/contact' element={<Contact/>} exact/>
+          <Route path='/policy' element={<Policy/>} exact/>
         </Routes>
       </BrowserRouter>
   );

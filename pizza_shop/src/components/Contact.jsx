@@ -9,32 +9,10 @@ const Contact = () => {
       <Container style={{ marginTop: "50px" }}>
         <Row>
           <Col md={6}>
-            <h1>Techinfo YT Pizza Shop</h1>
+            <h1>PIZZA_SHOP</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
-              nostrum magni voluptatem perferendis dolorum nisi architecto
-              maxime voluptas exercitationem. Omnis, iure laudantium eveniet
-              voluptas corrupti deserunt minima. Omnis dolore unde, esse magnam
-              animi nesciunt velit impedit eveniet voluptates beatae libero
-              laboriosam soluta dolorem odio delectus nisi suscipit quaerat
-              repudiandae ratione? Cum fugit inventore porro, ipsum quas
-              voluptas? Optio assumenda ut rem totam ea, sequi consequuntur eos
-              magnam asperiores fugiat repudiandae dolor rerum praesentium a
-              deleniti doloribus exercitationem officiis odio iure quis minus
-              omnis quisquam cumque aperiam. Dolorum sed fugit voluptates vel
-              quia sit molestias. Voluptas sint at maxime saepe, fuga
-              exercitationem incidunt eveniet esse laudantium itaque dolores
-              reiciendis nihil quia iste minus minima quas ut doloremque
-              delectus reprehenderit quo voluptate molestiae omnis earum. Nemo
-              corporis possimus, ea animi quis ipsam, dolorem facere eum sint
-              adipisci aperiam odit repellendus inventore qui eius magnam cumque
-              iste, sit maiores iusto modi distinctio reiciendis. Voluptatem
-              omnis nam iste culpa, a pariatur facere debitis mollitia impedit
-              ea, similique iusto veritatis ab. Eum sint possimus facilis
-              praesentium nostrum iure voluptatem, explicabo dolorum, illum
-              maxime corrupti itaque esse aspernatur voluptates, in officiis
-              temporibus obcaecati. Sunt ad velit beatae deserunt ab iure
-              veritatis modi dolorum? Quisquam, reiciendis iusto.
+            Craving the perfect pizza experience? Look no further! PIZZA_SHOP is your ticket to pizza paradise, where taste meets temptation. Our menu is a symphony of flavors, boasting an enticing array of pizzas that will tantalize your taste buds and leave you craving for more. Whether you're a fan of classic Margheritas, bold gourmet creations, or something in between, we've got the pizza that's sure to become your new obsession.</p><p>
+            Our shop offers Easy Ordering, Speedy Delivery, Top-Notch Quality, Customer-Centric,Exclusive Deals etc.So, if you're ready to elevate your pizza game, look no further than PIZZA_SHOP. Join us today and discover why we're not just any pizza place – we're your new pizza obsession!
             </p>
 
             <Table striped bordered hover className="text-center">
@@ -72,7 +50,7 @@ const Contact = () => {
           </Col>
           <Col md={6}>
             <Image
-              src="images/farmhouse.jpg"
+              src="images/pizzashop.jpg"
               style={{ width: "100%", height: "100%" }}
             />
           </Col>

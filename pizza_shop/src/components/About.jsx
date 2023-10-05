@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
+
 
 const About = () => {
   return (
@@ -7,102 +8,68 @@ const About = () => {
       <Container style={{ marginTop: "50px" }}>
         <h1>Who we are</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eveniet
-          unde vel dignissimos. Cum minima iste quaerat sequi, eum aspernatur
-          dignissimos magni impedit repudiandae, quidem laudantium accusamus
-          modi, ipsa quae! Facilis ducimus vero saepe illo consectetur.
-          Assumenda vel, temporibus voluptatibus possimus eaque beatae
-          distinctio excepturi eos sint dolore ut architecto iure doloribus
-          debitis similique impedit culpa alias voluptatum ab magni odio quia.
-          Suscipit in tempore alias aut nemo minus velit commodi perspiciatis
-          molestias unde doloremque placeat officia quaerat fuga nisi modi vitae
-          consequuntur, illum harum dolore asperiores at illo itaque! Accusamus
-          sed cumque, quo veniam iure aperiam quod dolorem, unde magnam nobis
-          ullam repudiandae repellat! Cumque, beatae explicabo totam quae
-          incidunt voluptates sit nisi aspernatur tenetur rerum molestiae
-          assumenda in autem commodi, doloribus tempora dolor ab eligendi? Amet
-          voluptatem expedita architecto odit possimus, aperiam commodi ullam
-          accusantium nam magni, placeat error ipsum temporibus nihil molestias
-          a minima hic sapiente at est quae porro. Iste iusto provident, totam
-          laborum in molestiae officia voluptatum quis fugiat ullam amet
-          accusantium ipsam aliquid nisi quaerat a repudiandae consequatur
-          reprehenderit. Ea itaque cupiditate vel sequi blanditiis deleniti hic
-          ipsum eaque officiis adipisci omnis, deserunt rerum, laudantium, et
-          impedit quos a eius soluta ut dolore esse.
+        At PIZZA_SHOP, we've redefined the art of pizza-making. Our passion for crafting exceptional pizzas using only the finest ingredients is matched only by our commitment to customer satisfaction. From traditional classics to avant-garde creations, each pizza is a symphony of flavors that tantalizes your taste buds. With quick, reliable delivery and a dedicated team, we ensure that every slice arrives piping hot, ready to be savored. Join us on a journey where every pizza tells a story, and every bite is an adventure. Welcome to PIZZA_SHOP - where pizza isn't just food; it's an experience.
         </p>
         <h1>Our Speciality</h1>
         <Row>
           <Col md={6}>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque in
-              quibusdam deserunt tempore enim veritatis ducimus facilis cum
-              animi ex eius doloribus ratione illo, laborum laboriosam!
-              Consequatur maxime placeat, voluptatum veniam quisquam deleniti
-              laudantium repellendus rerum vitae minima dolorum, earum sapiente
-              rem reiciendis voluptas sunt sed repudiandae eaque! Quas adipisci
-              recusandae debitis officia delectus aliquam id harum quis
-              consequuntur vero, iste maxime eius ullam, praesentium qui ut sit
-              consectetur. Quis provident libero ad veniam possimus minus, nulla
-              molestias. Sapiente ipsa amet odio at omnis natus provident
-              eveniet nam aperiam reiciendis nostrum distinctio ea illum
-              accusantium labore, sed quisquam, temporibus vitae.
+            <p> <b>Signature Pizzas:</b>
+             Highlight a selection of signature pizzas that are unique to your shop. These could be inspired by local flavors, international cuisines, or creative combinations that set your shop apart.
+            </p>
+            <p><b>Fresh and Local Ingredients:</b>
+             Emphasize your commitment to using fresh, locally-sourced ingredients. Mention specific local farms or suppliers you work with to showcase the quality and freshness of your pizzas.
+            </p>
+            <p><b>Customization:</b>
+             Offer a wide range of customizable options, allowing customers to build their own pizzas with a variety of crusts, sauces, and toppings. This personalization sets you apart and caters to diverse tastes.
             </p>
           </Col>
           <Col md={6}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam dignissimos recusandae doloremque mollitia dolorem
-              debitis animi. Natus tempore facere perferendis consequuntur quae
-              temporibus dignissimos velit! Dicta aliquam sint recusandae
-              dignissimos neque quia repellendus dolorum autem aspernatur
-              repudiandae similique hic possimus, repellat voluptatibus
-              architecto voluptate consectetur, amet ducimus eos fugiat
-              asperiores. Quae maiores quis animi sit optio dicta aperiam nulla
-              magnam quisquam rem deserunt explicabo, itaque obcaecati iste. Eum
-              corrupti voluptas veritatis neque sunt recusandae temporibus
-              maiores, mollitia facilis repudiandae magni ipsum iste, voluptates
-              ratione rerum quo dolorem aut impedit omnis reiciendis dolores
-              nam. Accusamus ratione sapiente minima vero ex consequatur.
+            <b>Health-Conscious Choices:</b> Cater to health-conscious customers with options like cauliflower crusts, vegan cheeses, and a variety of vegetable toppings. Mention any health benefits of these choices.
+            </p>
+            <p><b>Delivery and Online Ordering:</b>
+             Highlight the convenience of your online ordering system and prompt delivery service. Offer exclusive discounts for online orders to incentivize customers to order through your website or app.
+            </p>
+            <p><b>Customer Reviews:</b>
+             Showcase positive reviews and testimonials from satisfied customers on your website or social media. This social proof can build trust and encourage new customers to try your pizzas.
             </p>
           </Col>
         </Row>
         <Row>
-          <h1>Our Cheif</h1>
+          <h1>Our Chef</h1>
           <Col md={3}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            libero adipisci aliquid veniam. Incidunt sequi nesciunt rerum
-            accusamus! Adipisci rerum earum ex eos quos consectetur distinctio
-            nisi, sapiente, dignissimos facere harum reiciendis? Velit
-            laudantium vero aspernatur illum veniam iusto consectetur, facilis
-            excepturi amet exercitationem deleniti, sed assumenda minima! Rerum,
-            eveniet.
+            <div className="image-container">
+                <Image
+                    src="images/shef1.jpg"
+                    style={{ width: "40%", height: "40%" }}
+                />
+             </div>
+            <h4>Gourmet Maestro - Chef Alessandro</h4>
+            Meet Chef Alessandro, our culinary visionary. With a background in Michelin-starred restaurants, he brings an artistic touch to every dish. His gourmet pizzas are crafted with a blend of exotic ingredients and traditional flavors, resulting in a symphony of taste that's simply divine.
           </Col>
           <Col md={3}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            libero adipisci aliquid veniam. Incidunt sequi nesciunt rerum
-            accusamus! Adipisci rerum earum ex eos quos consectetur distinctio
-            nisi, sapiente, dignissimos facere harum reiciendis? Velit
-            laudantium vero aspernatur illum veniam iusto consectetur, facilis
-            excepturi amet exercitationem deleniti, sed assumenda minima! Rerum,
-            eveniet.
+            <Image
+              src="images/shef2.jpg"
+              style={{ width: "40%", height: "40%" }}
+            />
+            <h4>The Pizza Perfectionist - Chef Mia</h4>
+            Chef Mia's obsession with perfection shines through in every pizza she creates. Her meticulous attention to detail and dedication to using the freshest, locally-sourced ingredients ensures that each pizza is a masterpiece. Expect a slice of pizza heaven in every bite.
           </Col>
           <Col md={3}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            libero adipisci aliquid veniam. Incidunt sequi nesciunt rerum
-            accusamus! Adipisci rerum earum ex eos quos consectetur distinctio
-            nisi, sapiente, dignissimos facere harum reiciendis? Velit
-            laudantium vero aspernatur illum veniam iusto consectetur, facilis
-            excepturi amet exercitationem deleniti, sed assumenda minima! Rerum,
-            eveniet.
+          <Image
+              src="images/shef3.jpg"
+              style={{ width: "40%", height: "40%" }}
+            />
+            <h4>Flavor Alchemist - Chef Santiago</h4>
+            Chef Santiago is a true flavor magician. His passion for experimenting with unique combinations and international influences is what sets his pizzas apart. From bold, spicy creations to harmonious vegetarian delights, Chef Santiago's pizzas are a voyage of culinary discovery.
           </Col>
           <Col md={3}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            libero adipisci aliquid veniam. Incidunt sequi nesciunt rerum
-            accusamus! Adipisci rerum earum ex eos quos consectetur distinctio
-            nisi, sapiente, dignissimos facere harum reiciendis? Velit
-            laudantium vero aspernatur illum veniam iusto consectetur, facilis
-            excepturi amet exercitationem deleniti, sed assumenda minima! Rerum,
-            eveniet.
+          <Image
+              src="images/shef4.jpg"
+              style={{ width: "40%", height: "40%" }}
+            />
+            <h4>The Traditionalist - Nonna Gina</h4>
+            Nonna Gina, our beloved grandmotherly figure, is the heart and soul of our pizzeria. Her time-honored family recipes have been passed down for generations. With a dash of nostalgia and a whole lot of love, she creates classic, rustic pizzas that warm your heart and fill your belly.
           </Col>
         </Row>
       </Container>
