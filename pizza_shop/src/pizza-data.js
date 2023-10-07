@@ -54,7 +54,7 @@ const pizzas = [
       },
     ],
     category: "nonveg",
-    image: "/images/chicken_pepperoni.jpg",
+    image: "/images/chicken_pepperoni.png",
     description:
       "A classic American taste! Relish the delectable flavour of Chicken Pepperoni, topped with extra cheese",
   },
@@ -84,7 +84,7 @@ const pizzas = [
       },
     ],
     category: "veg",
-    image: "/images/Blazing_Onion_Paprika.jpg",
+    image: "/images/Blazing_Onion_Paprika.jpeg",
     description:
       "Hot & spicy pizza with onion & red paprika toppings and a new spicy peri peri sauce on a Domino's cheesy base.",
   },
