@@ -9,112 +9,45 @@ const Policy = () => {
         <Row>
           <Col md={10}>
             <h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-              praesentium?
+            Ordering and Payment:
             </h6>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam
-              officia nemo unde neque iusto minima reiciendis vitae nam deserunt
-              qui nulla rem voluptas, non velit earum, corrupti delectus sint!
-              Quibusdam quam aliquam eveniet molestias fuga assumenda culpa at,
-              temporibus tempore perspiciatis repellat architecto iste
-              aspernatur repellendus quaerat reprehenderit libero excepturi iure
-              nisi! Ipsum unde voluptatibus repellendus provident esse aliquam
-              labore, inventore ex autem nobis sunt. Cupiditate unde impedit
-              ullam blanditiis quos molestias molestiae modi iusto dignissimos,
-              sed architecto? Officiis, esse perferendis. Dolor dolores
-              voluptates quos, officia voluptatibus nesciunt voluptatum
-              voluptatem ipsa, minus magni, quisquam illum sit quis itaque quas.
+            All orders must be placed through our official website, mobile app, or in-person at our physical location.
+Payment can be made using the provided online payment options or in cash upon delivery/pickup.
+Prices are subject to change without notice.
             </p>
             <h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-              praesentium?
+            Delivery:
             </h6>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam
-              officia nemo unde neque iusto minima reiciendis vitae nam deserunt
-              qui nulla rem voluptas, non velit earum, corrupti delectus sint!
-              Quibusdam quam aliquam eveniet molestias fuga assumenda culpa at,
-              temporibus tempore perspiciatis repellat architecto iste
-              aspernatur repellendus quaerat reprehenderit libero excepturi iure
-              nisi! Ipsum unde voluptatibus repellendus provident esse aliquam
-              labore, inventore ex autem nobis sunt. Cupiditate unde impedit
-              ullam blanditiis quos molestias molestiae modi iusto dignissimos,
-              sed architecto? Officiis, esse perferendis. Dolor dolores
-              voluptates quos, officia voluptatibus nesciunt voluptatum
-              voluptatem ipsa, minus magni, quisquam illum sit quis itaque quas.
+            We aim to deliver orders promptly within the specified delivery area. Delivery times may vary depending on demand.
+Customers are responsible for providing accurate delivery details. We will not be held responsible for late or undelivered orders due to inaccurate information.
+Delivery charges may apply and will be clearly communicated during the ordering process.    
             </p>
             <h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-              praesentium?
+            Pickup:
             </h6>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam
-              officia nemo unde neque iusto minima reiciendis vitae nam deserunt
-              qui nulla rem voluptas, non velit earum, corrupti delectus sint!
-              Quibusdam quam aliquam eveniet molestias fuga assumenda culpa at,
-              temporibus tempore perspiciatis repellat architecto iste
-              aspernatur repellendus quaerat reprehenderit libero excepturi iure
-              nisi! Ipsum unde voluptatibus repellendus provident esse aliquam
-              labore, inventore ex autem nobis sunt. Cupiditate unde impedit
-              ullam blanditiis quos molestias molestiae modi iusto dignissimos,
-              sed architecto? Officiis, esse perferendis. Dolor dolores
-              voluptates quos, officia voluptatibus nesciunt voluptatum
-              voluptatem ipsa, minus magni, quisquam illum sit quis itaque quas.
+            Customers selecting the pickup option are responsible for collecting their orders at the specified pickup location and time. We are not responsible for orders left uncollected.
             </p>
             <h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-              praesentium?
+            Order Changes and Cancellations:
             </h6>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam
-              officia nemo unde neque iusto minima reiciendis vitae nam deserunt
-              qui nulla rem voluptas, non velit earum, corrupti delectus sint!
-              Quibusdam quam aliquam eveniet molestias fuga assumenda culpa at,
-              temporibus tempore perspiciatis repellat architecto iste
-              aspernatur repellendus quaerat reprehenderit libero excepturi iure
-              nisi! Ipsum unde voluptatibus repellendus provident esse aliquam
-              labore, inventore ex autem nobis sunt. Cupiditate unde impedit
-              ullam blanditiis quos molestias molestiae modi iusto dignissimos,
-              sed architecto? Officiis, esse perferendis. Dolor dolores
-              voluptates quos, officia voluptatibus nesciunt voluptatum
-              voluptatem ipsa, minus magni, quisquam illum sit quis itaque quas.
+            Changes or cancellations to orders must be made at least  20 minutes before the scheduled delivery or pickup time.
+Orders canceled after the specified time may incur charges.
             </p>
             <h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-              praesentium?
+            Quality Assurance:
             </h6>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam
-              officia nemo unde neque iusto minima reiciendis vitae nam deserunt
-              qui nulla rem voluptas, non velit earum, corrupti delectus sint!
-              Quibusdam quam aliquam eveniet molestias fuga assumenda culpa at,
-              temporibus tempore perspiciatis repellat architecto iste
-              aspernatur repellendus quaerat reprehenderit libero excepturi iure
-              nisi! Ipsum unde voluptatibus repellendus provident esse aliquam
-              labore, inventore ex autem nobis sunt. Cupiditate unde impedit
-              ullam blanditiis quos molestias molestiae modi iusto dignissimos,
-              sed architecto? Officiis, esse perferendis. Dolor dolores
-              voluptates quos, officia voluptatibus nesciunt voluptatum
-              voluptatem ipsa, minus magni, quisquam illum sit quis itaque quas.
+            We take pride in the quality of our pizzas and ingredients. If you are dissatisfied with your order, please contact us immediately, and we will do our best to resolve the issue.
             </p>
             <h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-              praesentium?
+            Allergies and Dietary Restrictions:
             </h6>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam
-              officia nemo unde neque iusto minima reiciendis vitae nam deserunt
-              qui nulla rem voluptas, non velit earum, corrupti delectus sint!
-              Quibusdam quam aliquam eveniet molestias fuga assumenda culpa at,
-              temporibus tempore perspiciatis repellat architecto iste
-              aspernatur repellendus quaerat reprehenderit libero excepturi iure
-              nisi! Ipsum unde voluptatibus repellendus provident esse aliquam
-              labore, inventore ex autem nobis sunt. Cupiditate unde impedit
-              ullam blanditiis quos molestias molestiae modi iusto dignissimos,
-              sed architecto? Officiis, esse perferendis. Dolor dolores
-              voluptates quos, officia voluptatibus nesciunt voluptatum
-              voluptatem ipsa, minus magni, quisquam illum sit quis itaque quas.
+            Customers with allergies or dietary restrictions are responsible for reviewing our menu and ingredient information to make informed choices. We cannot guarantee a completely allergen-free environment.
             </p>
           </Col>
         </Row>
