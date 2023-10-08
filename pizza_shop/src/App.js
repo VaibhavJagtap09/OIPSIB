@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Policy from './components/Policy';
 import NavBar from './components/NavBar';
 import HomeScreen from './screens/HomeScreen';
+import CustomPizza from './components/CustomPizza'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/contact' element={<Contact/>} exact/>
           <Route path='/policy' element={<Policy/>} exact/>
           <Route path='/' element={<HomeScreen/>} exact/>
+          <Route path='/CustomPizza' element={<CustomPizza/>} exact/>
         </Routes>
       </BrowserRouter>
   );

@@ -1,0 +1,85 @@
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+  }
+    
+    /* Radio and checkbox styles */
+    label {
+      display: block;
+      margin-bottom: 15px;
+      font-size: 18px;
+      color: #444;
+      cursor: pointer;
+    }
+    
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    
+    /* Button styles */
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 12px 24px;
+      background-color: #ff5722;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 20px;
+      transition: background-color 0.2s ease-in-out;
+    }
+    
+    button:hover {
+      background-color: #e64a19;
+    }
+    
+    /* Total Price styles */
+    .total-price {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 20px;
+      color: #333;
+    }
+    
+    /* Form layout styles */
+    form {
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Additional styles for radio and checkbox options (customize as needed) */
+    input[type="radio"]:checked + label,
+    input[type="checkbox"]:checked + label {
+      font-weight: bold;
+      color: #ff5722;
+    }
+    
+    /* Responsive styles for smaller screens (customize breakpoints as needed) */
+    @media (max-width: 768px) {
+      .container {
+        max-width: 100%;
+      }
+    }
+    
